@@ -38,7 +38,9 @@ class CityScreen extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(22)),
               ),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/SizeScreen');
+                },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.transparent,
                     shadowColor: Colors.transparent),
