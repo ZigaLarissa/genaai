@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
-class SizeScreen extends StatefulWidget {
-  const SizeScreen({super.key});
+class FloorScreen extends StatelessWidget {
+  const FloorScreen({super.key});
 
-  @override
-  State<SizeScreen> createState() => _SizeScreenState();
-}
-
-class _SizeScreenState extends State<SizeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +28,7 @@ class _SizeScreenState extends State<SizeScreen> {
                   ),
                   pointers: const <GaugePointer>[
                     RangePointer(
-                      value: 35,
+                      value: 100,
                       width: 0.06,
                       sizeUnit: GaugeSizeUnit.factor,
                       cornerStyle: CornerStyle.startCurve,
@@ -47,7 +41,7 @@ class _SizeScreenState extends State<SizeScreen> {
                       ),
                     ),
                     MarkerPointer(
-                      value: 35,
+                      value: 100,
                       markerType: MarkerType.circle,
                       color: Color(0xFF4F0B79),
                     )
@@ -86,7 +80,7 @@ class _SizeScreenState extends State<SizeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'House Size',
+                'Number of Floors',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -98,7 +92,7 @@ class _SizeScreenState extends State<SizeScreen> {
                 width: 450,
                 child: TextField(
                   decoration: InputDecoration(
-                    hintText: 'Enter the size of your house',
+                    hintText: 'Enter the number of floors',
                     hintStyle: TextStyle(
                       fontSize: 16,
                       color: Color.fromARGB(255, 8, 8, 8),
@@ -123,13 +117,13 @@ class _SizeScreenState extends State<SizeScreen> {
             ),
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/BedroomScreen');
+                Navigator.pushNamed(context, '/ResultScreen');
               },
               style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.transparent,
                   shadowColor: Colors.transparent),
               child: const Text(
-                'Next',
+                'Predict Now',
                 style: TextStyle(
                   fontSize: 18,
                   color: Colors.white,
