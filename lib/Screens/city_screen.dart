@@ -13,7 +13,7 @@ class CityScreen extends StatelessWidget {
             const SizedBox(height: 70),
             const CircleAvatar(
               radius: 120, // Image radius
-              backgroundImage: AssetImage('../images/city.jpg'),
+              backgroundImage: AssetImage('images/city.jpg'),
             ),
             const SizedBox(height: 20),
             const Text(
@@ -27,7 +27,7 @@ class CityScreen extends StatelessWidget {
             const SizedBox(height: 50),
             Container(
               height: 44.0,
-              width: 300.0,
+              width: 200.0,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
@@ -76,8 +76,7 @@ class CityScreen extends StatelessWidget {
                           children: [
                             CircleAvatar(
                               radius: 30, // Image radius
-                              backgroundImage:
-                                  AssetImage('../images/london.jpg'),
+                              backgroundImage: AssetImage('images/london.jpg'),
                             ),
                             SizedBox(height: 10),
                             Text(
@@ -93,8 +92,7 @@ class CityScreen extends StatelessWidget {
                           children: [
                             CircleAvatar(
                               radius: 30, // Image radius
-                              backgroundImage:
-                                  AssetImage('../images/newyork.jpg'),
+                              backgroundImage: AssetImage('images/newyork.jpg'),
                             ),
                             SizedBox(height: 10),
                             Text(
@@ -111,7 +109,7 @@ class CityScreen extends StatelessWidget {
                             CircleAvatar(
                               radius: 30, // Image radius
                               backgroundImage:
-                                  AssetImage('../images/istanbul.jpg'),
+                                  AssetImage('images/istanbul.jpg'),
                             ),
                             SizedBox(height: 10),
                             Text(
@@ -128,7 +126,7 @@ class CityScreen extends StatelessWidget {
                             CircleAvatar(
                               radius: 30, // Image radius
                               backgroundImage:
-                                  AssetImage('../images/manchester.jpg'),
+                                  AssetImage('images/manchester.jpg'),
                             ),
                             SizedBox(height: 10),
                             Text(

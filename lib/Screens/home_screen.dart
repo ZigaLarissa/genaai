@@ -22,15 +22,15 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         radius: 30, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse1.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse1.jpg'),
                       ),
                       CircleAvatar(
                         radius: 20, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse2.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse2.jpg'),
                       ),
                       CircleAvatar(
                         radius: 40, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse3.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse3.jpg'),
                       ),
                     ],
                   ),
@@ -39,15 +39,15 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         radius: 40, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse4.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse4.jpg'),
                       ),
                       CircleAvatar(
                         radius: 90, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse5.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse5.jpg'),
                       ),
                       CircleAvatar(
                         radius: 34, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse6.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse6.jpg'),
                       ),
                     ],
                   ),
@@ -56,15 +56,15 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         radius: 50, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse7.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse7.jpg'),
                       ),
                       CircleAvatar(
                         radius: 28, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse8.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse8.jpg'),
                       ),
                       CircleAvatar(
                         radius: 68, // Image radius
-                        backgroundImage: AssetImage('../images/Ellipse9.jpg'),
+                        backgroundImage: AssetImage('images/Ellipse9.jpg'),
                       ),
                     ],
                   ),
@@ -94,7 +94,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 50),
             Container(
               height: 44.0,
-              width: 400.0,
+              width: 300.0,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
